@@ -2,24 +2,40 @@
 原项目提供cpp，py文件
 作为初学者 包装成unproject，测试刚学python机器学习，py和原来不同
 -----------------
-结构py
+结构树py
+
 |——customenv
+
     |——init
+		
       |——[obs,act]space           //用于nn网络（in-out）搭建
+			
     |——step
+		
       |——tcp>>ue4
+
 |——agent
-  |——nn
-  |——act(obs)
-  |——step(act)
-  |——train_episode()
-    while
-      act(obs)
-      step(act)
-      if done:break
+
+    |——nn
+	
+    |——act(obs)
+	
+    |——step(act)
+	
+    |——train_episode()
+	
+      while
+		
+        act(obs)
+			
+        step(act)
+			
+        if done:break
       
-|——原作者使用baseline算法（nn）
-    baseline不会用
+|——原作者使用baseline里的算法（nn）
+
+    baseline
+
 -----------------
 流程
 
